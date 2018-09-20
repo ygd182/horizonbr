@@ -1,0 +1,37 @@
+<div class="deck-container">
+  <div class="deck-heading">
+    <h3>MODEL-BASED FORECAST OF ENERGY PRICE</h3>
+    <a role="button" class="btn btn-primary btn-lg">Adicionar</a>
+  </div>
+  <div class="card">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th >Codigo</th>
+          <th >Mes/Ano</th>
+          <th >Revisao</th>
+          <th >Tipo</th>
+          <th class="w-25">Descricao</th>
+          <th ></th>
+          <th ></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let deck of decks">
+          <td>{{deck.Codigo}}</td>
+          <td>{{deck.Mes}}</td>
+          <td>{{deck.Revisao}}</td>
+          <td>{{deck.Tipo}}</td>
+          <td>{{deck.Descricao}}</td>
+          <td>
+            <a role="button" class="btn btn-primary btn-sm"><i class="fa fa-edit"></i>editar</a>
+          </td>
+          <td>
+            <a role="button" class="btn btn-danger btn-sm"><i class="fa fa-times-circle"></i>excluir</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+

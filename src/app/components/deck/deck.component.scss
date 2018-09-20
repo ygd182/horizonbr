@@ -1,0 +1,41 @@
+.deck-container {
+  .deck-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    /*h3, btn {
+      flex: 0 0 50%;
+    }*/
+  }
+    
+
+}
+
+.table {
+  table-layout: fixed;
+  border-radius: 25px;
+
+  &.table-bordered {
+    th {
+      background-color: #E5ECF1;
+      text-align: center;
+      border-left: 1px dashed #fff;
+      border-right: none;
+    }
+
+    td {
+      text-align: center;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      border-left: 1px dashed #dee2e6;
+      border-right: none;
+    }
+
+  
+
+  }
+
+}
+

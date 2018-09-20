@@ -1,0 +1,51 @@
+.header {
+  background-color: #383D8B;
+  height: 173px;
+  padding-top: 23px;
+
+  .logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    color: #fff;
+    
+  }
+}
+
+.content {
+  background-color: #FFF;
+  margin-top: -50px;
+  width: 77%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  margin-bottom: 65px;
+  padding: 50px;
+}
+
+::ng-deep {
+  .table {
+    margin-bottom: 0;
+  }
+  
+  .table td, .table td {
+    padding: 5px;
+    vertical-align: middle;
+  }
+
+  .btn {
+    font-weight: bold;
+    border-radius: 25px;
+    color: #fff!important;
+
+    i.fa {
+      margin-right: 3px;
+    }
+  }
+
+  h3 {
+    color: #383D8B;
+    font-weight: bold;
+  }
+
+}
